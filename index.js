@@ -4,8 +4,7 @@ const app = express();
 const port = 5001;
 require('./db/conn');
 const User = require('./models/User');
-const docx2html = require("docx2html");
-var mammoth = require("mammoth");
+// var mammoth = require("mammoth");
 const { upload } = require('./util/util');
 const Book = require('./models/Book');
 
